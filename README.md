@@ -1,4 +1,4 @@
-# Notes to Myself
+# Notes to Myself Backend
 
 ### I used these technologies while doing this project
 
