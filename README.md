@@ -9,3 +9,5 @@
 * bcryptjs
 * jsonwebtoken
 * mongoose (Mongo DB)
+
+#### [You can click here to see the Frontend of this project](https://github.com/kmlcnclk/notes_to_myself_frontend)
