@@ -13,6 +13,9 @@ const sendJwtToClient = (user, res, isRegister) => {
     .json({
       success: true,
       access_token: token,
+      user: {
+        firstName: user.firstName,
+      },
     });
 };
 
