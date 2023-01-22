@@ -3,7 +3,7 @@ const dayjs = require('dayjs');
 
 const log = logger({
   transport: {
-    // target: 'pino-pretty',
+    target: 'pino-pretty',
     options: {
       colorize: true,
     },

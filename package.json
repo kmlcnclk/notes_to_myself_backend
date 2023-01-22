@@ -23,10 +23,10 @@
     "jsonwebtoken": "^9.0.0",
     "mongoose": "^6.8.3",
     "pino": "^8.8.0",
-    "pino-pretty": "^9.1.1",
     "yup": "^0.32.11"
   },
   "devDependencies": {
-    "nodemon": "^2.0.20"
+    "nodemon": "^2.0.20",
+    "pino-pretty": "^9.1.1"
   }
 }

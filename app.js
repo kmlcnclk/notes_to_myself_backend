@@ -1,13 +1,14 @@
 const express = require('express');
 const mainRouter = require('./routes/main.router');
 const cors = require('cors');
-const app = express();
 const dotenv = require('dotenv');
 const compression = require('compression');
 const customErrorHandler = require('./helpers/errors/customErrorHandler');
 const connectDatabase = require('./databases/connectDatabase');
 const helmet = require('helmet');
 const log = require('./tools/index');
+
+const app = express();
 
 dotenv.config({});
 
